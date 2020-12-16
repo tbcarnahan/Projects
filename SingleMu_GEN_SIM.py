@@ -33,6 +33,7 @@ process.load('GeneratorInterface.Core.genFilterSummary_cff')
 process.load('Configuration.StandardSequences.SimIdeal_cff')
 process.load('Configuration.StandardSequences.EndOfProcess_cff')
 process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
+process.load('GEMCode.GEMValidation.randomizeMuonGun') #IMPORTANT FOR eta range = can find change to range here in GEMCode/GEMValidation/python/randomizeMuonGun.py
 process.load('Configuration.Generator.SingleMuFlatLogPt_100MeVto2TeV_cfi')
 
 process.maxEvents = cms.untracked.PSet(
